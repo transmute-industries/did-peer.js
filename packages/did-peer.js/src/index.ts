@@ -1,4 +1,3 @@
-  
 /*
  * Copyright 2020 - Transmute Industries Inc.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,7 +10,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 
 import { Ed25519KeyPair, EdDSA, driver } from '@transmute/did-key-ed25519';
 import moment from 'moment';
@@ -68,7 +66,7 @@ export const applySignedDelta = async (state: any, delta: any) => {
     throw new Error(key + ' not in authentication relationship');
   }
   key = state.publicKey.find((vm: any) => {
-    return vm.id == key;
+    return vm.id === key;
   });
   const _jwk = await (await Ed25519KeyPair.from(key)).toJwk();
   let payload = R.clone(delta);

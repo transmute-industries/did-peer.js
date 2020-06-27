@@ -11,7 +11,6 @@
  * limitations under the License.
  */
 
- 
 export const key = {
   type: 'Ed25519VerificationKey2018',
   id: '#z6Mkf5rGMoatrSj1f4CyvuHBeXJELe9RPdzo2PKGNCKVtZxP',
