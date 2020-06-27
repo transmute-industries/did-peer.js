@@ -96,7 +96,7 @@ const newDoc = Object.clone(oldDoc).publicKey.push({
   },
 });
 
-// throw the magic of ietf-json-patch update deltas can be inferred and signed!
+// through the magic of ietf-json-patch update deltas can be inferred and signed!
 const delta = await peer.getSignedDelta(
   oldDoc,
   newDoc,
