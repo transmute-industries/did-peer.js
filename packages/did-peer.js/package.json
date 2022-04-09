@@ -43,7 +43,7 @@
     "base64url": "^3.0.1",
     "canonicalize": "^1.0.1",
     "fast-json-patch": "^3.0.0-1",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "ramda": "^0.27.0"
   }
 }
